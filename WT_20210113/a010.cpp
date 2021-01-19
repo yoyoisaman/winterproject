@@ -5,7 +5,7 @@ int main(){
 	int cnt[2000000]= {0};
 	int count = 0;
 	int exist = 0;
-        scanf("%d",&input);
+    scanf("%d",&input);
 	int tmp = 0;
     
     if(input>2000000){
@@ -33,7 +33,7 @@ int main(){
 			if(cnt[i]>0){
                 if(cnt[i]>1){
 				    printf("%d^%d",i,cnt[i]);
-                    count=count - cnt[i];
+                    count-= cnt[i];
                 }
                 else{
                     printf("%d",i);
