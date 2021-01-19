@@ -12,7 +12,7 @@ int main(){
 	}else if(D == 0){
 		x1 = (-1 * b)/(2 * a);
 		printf("Two same roots x=%d\n",x1);
-	}else if(D>0){
+	}else if(D > 0){
 		x1 = (-1 * b+sqrt(D))/(2 * a);
 		x2 = (-1 * b-sqrt(D))/(2 * a);
 		if(x2 > x1){
