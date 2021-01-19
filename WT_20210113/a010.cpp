@@ -5,25 +5,27 @@ int main(){
 	int cnt[2000000]= {0};
 	int count = 0;
 	int exist = 0;
-	
-	scanf("%d",&input);
+        scanf("%d",&input);
 	int tmp = 0;
+    
     if(input>2000000){
         tmp=sqrt(input);
     }else{
         tmp = input;
     }
+    
     for(int i = 2;i<tmp;i++){
 		while(input%i==0){
 			input = input/i;
-            if(exist == 0){
+			if(exist == 0){
 				exist = 1;
 			}
 			count++;
-            cnt[i]++;
+			cnt[i]++;
 		}
-	}
-	if(exist == 0){
+    }
+	
+    if(exist == 0){
 		printf("%d\n",input);
 	}
 	else if(exist == 1){
