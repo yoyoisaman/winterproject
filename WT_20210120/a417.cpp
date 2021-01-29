@@ -16,29 +16,25 @@ int main(void)
 			while(x+1<n && !a[x+1][y]) {
 				count++;
 				x++;
-			//	printf("ax:%d\ty:%dcnt:%d\n",x,y,count);
 				a[x][y]=count;			
 			}
 			while(y-1>=0 && !a[x][y-1]) {
 				count++;
 				y--;
 				a[x][y]=+count;
-			//	printf("bx:%d\ty:%dcnt:%d\n",x,y,count);
 			}
 			while(x-1>=0 && !a[x-1][y]){
 				x --;
 				count++;
 				a[x][y]=count;
-			//	printf("cx:%d\ty:%dcnt:%d\n",x,y,count);
 			} 
 			while(y+1<n && !a[x][y+1]){
 				y++;
 				count++;
 				a[x][y]=count;
-			//	printf("dx:%d\ty:%dcnt:%d\n",x,y,count);
 			} 
 		}
-		//printf("AAAA%d\n",a[2][0]);
+		
 		if(m == 1){
 			for(y=n-1;y>-1;y--){
 				for(x=0;x<n;x++){
