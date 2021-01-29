@@ -4,6 +4,7 @@
 #include<math.h>
 int cnt[2000000]= {0};
 int exist = 0;
+
 int big(int input){
 	int k=0;
 	if(input>2000000){
@@ -12,6 +13,7 @@ int big(int input){
 	    return input;
 	}
 }
+
 void table(int tmp,int input){
 	for(int i = 2;i<tmp;i++){
 		while(input%i==0){
@@ -36,8 +38,8 @@ int main(){
 		}else if(exist == 1){
 			for(int i =2;i<tmp;i++){
 				if(cnt[i]>0){
-	                sum+= cnt[i] * i;
-	            }
+	                		sum+= cnt[i] * i;
+	            		}
 			}
 	        printf("%d\n",sum);
 	        sum = 0;
