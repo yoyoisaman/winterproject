@@ -10,7 +10,7 @@ void dfs(int n){
 	if(l<r) return;
 	if(input.size() == n*2){
 		if(r == l){
-				cout << input <<'\n';
+			cout << input <<'\n';
 		}
 	}
 	else{
