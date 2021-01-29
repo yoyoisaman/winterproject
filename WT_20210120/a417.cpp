@@ -21,7 +21,7 @@ int main(void)
 			while(y-1>=0 && !a[x][y-1]) {
 				count++;
 				y--;
-				a[x][y]=+count;
+				a[x][y]=count;
 			}
 			while(x-1>=0 && !a[x-1][y]){
 				x --;
