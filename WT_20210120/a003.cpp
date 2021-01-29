@@ -8,13 +8,13 @@ int main(){
 	cin >> day.first >> day.second;
 	switch((day.first *2 + day.second)%3){
 		case 0:
-			cout<<"´¶³q" << '\n';
+			cout<<"æ™®é€š<< '\n';
 			break;
 		case 1:
-			cout<<"¦N" << '\n';
+			cout<<"å‰" << '\n';
 			break;
 		case 2:
-			cout<<"¤j¦N" << '\n';
+			cout<<"å¤§å‰" << '\n';
 			break;
 	}
 }
