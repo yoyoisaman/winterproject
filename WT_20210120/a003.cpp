@@ -8,7 +8,7 @@ int main(){
 	cin >> day.first >> day.second;
 	switch((day.first *2 + day.second)%3){
 		case 0:
-			cout<<"普通<< '\n';
+			cout<<"普通"<< '\n';
 			break;
 		case 1:
 			cout<<"吉" << '\n';
