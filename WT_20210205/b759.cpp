@@ -17,6 +17,6 @@ int main(){
 		dq.push_back(a);
 		for(int i=0;i<dq.size();i++)
 			printf("%c",dq[i]);
-			printf("\n");
+		printf("\n");
 	}
 }
