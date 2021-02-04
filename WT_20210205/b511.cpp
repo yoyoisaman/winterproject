@@ -27,13 +27,12 @@ void rec(int money,int level){
 }
 
 int main(){
-    int money = 0;
-    while((scanf("%d",&cnt))!=EOF){
-    	for(int i=0;i<cnt;i++){
-    		scanf("%d",&coin[i]);
+	int money = 0;
+	while((scanf("%d",&cnt))!=EOF){
+		for(int i=0;i<cnt;i++){
+			scanf("%d",&coin[i]);
 		}
 		scanf("%d",&money);
 		rec(money,0);
 	}
-
 }
