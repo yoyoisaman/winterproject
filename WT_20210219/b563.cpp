@@ -18,7 +18,7 @@ int main() {
 				mp[a][b] += 1;   
  			}
 		}
-        cout << ans << '\n';
+        	cout << ans << '\n';
 	}
 }
 
