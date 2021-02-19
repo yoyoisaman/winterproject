@@ -13,7 +13,7 @@ void sol(string s){
 			}else{
 				st.push(s[i]);
         	}	
-		}
+	}
 	if(st.empty())
             cout<<"Yes\n";
         else
