@@ -13,7 +13,7 @@ int main() {
             if (mp[b][a]>0){
                 mp[b][a] -= 1;
                 mp[a][b] -= 1;
-				ans += 1;
+		ans += 1;
             }else{
                 mp[a][b] += 1;   
             }
