@@ -18,18 +18,18 @@ void rec(int n , int m , int curr,int step){
 }
 
 int main(){
-    int n=0;
-    while(cin >> n ){
-        if(n==0){
-        	break;
+	int n=0;
+	while(cin >> n ){
+		if(n==0){
+			break;
+		}
+		int m=0;
+		for(int i=0;i<n;i++){
+			cin >> arr[i];
+		}
+		cin >> m;
+		sort(arr,arr+n);
+		rec(n,m,0,0);
 	}
-        int m=0;
-        for(int i=0;i<n;i++){
-        	cin >> arr[i];
-	}
-        cin >> m;
-        sort(arr,arr+n);
-        rec(n,m,0,0);
-    }
 }
 
