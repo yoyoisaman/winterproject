@@ -9,11 +9,11 @@ int sol(string s, int cnt){
 	cnt ++;
 	if (sum == 9){
 		return cnt;
-    }else if(sum < 9){
-        return 0;
-    }else{
-        return sol(to_string(sum), cnt);
-    }
+    	}else if(sum < 9){
+        	return 0;
+    	}else{
+		return sol(to_string(sum), cnt);
+   	}
 }
 
 int main(){
@@ -25,9 +25,9 @@ int main(){
 		}
 		ans = sol(s,0);
 		if (ans == 0){
-            cout << s << " is not a multiple of 9.\n";
-        }else{
-            cout << s << " is a multiple of 9 and has 9-degree " << ans << ".\n";
-        }
+            		cout << s << " is not a multiple of 9.\n";
+        	}else{
+            		cout << s << " is a multiple of 9 and has 9-degree " << ans << ".\n";
+		}
 	}
 }
