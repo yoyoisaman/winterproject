@@ -6,8 +6,8 @@ int reco[100],arr[100];
 void rec(int n , int m , int curr,int step){
     if(step == m){
         for(int i=0;i<m;i++){
-			cout << reco[i] << " ";
-		}
+		cout << reco[i] << " ";
+	}
         cout << '\n';
         return;
     }
@@ -22,11 +22,11 @@ int main(){
     while(cin >> n ){
         if(n==0){
         	break;
-		}
+	}
         int m=0;
         for(int i=0;i<n;i++){
         	cin >> arr[i];
-		}
+	}
         cin >> m;
         sort(arr,arr+n);
         rec(n,m,0,0);
