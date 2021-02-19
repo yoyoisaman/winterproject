@@ -24,9 +24,9 @@ void sol(int n,int k){
 	}
 	cout << "Case " << k << ":" << '\n' << "Dominate Point: " << st.size() << '\n';
 	while(st.size()){
-        cout << "("<< st.top().x << "," <<  st.top().y << ")" << '\n';
-        st.pop();
-    }
+        	cout << "("<< st.top().x << "," <<  st.top().y << ")" << '\n';
+       		st.pop();
+    	}
 }
 
 int main(){
