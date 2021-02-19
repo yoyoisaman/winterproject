@@ -3,44 +3,42 @@ using namespace std;
 
 void s(int n){
     switch(n){
-		case 1 :
-			cout << "¹«" << '\n';
+	case 1 :
+		cout << "é¼ " << '\n';
     		break;
-		case 2 :
-			cout << "¤û" << '\n';
+	case 2 :
+		cout << "ç‰›" << '\n';
     		break;
     	case 3 :
-			cout << "ªê" << '\n';
+		cout << "è™Ž" << '\n';
     		break;
     	case 4 :
-			cout << "¨ß" << '\n';
+		cout << "å…”" << '\n';
     		break;
     	case 5 :
-			cout << "Às" << '\n';
+		cout << "é¾" << '\n';
     		break;
     	case 6 :
-			cout << "³D" << '\n';
+		cout << "è›‡" << '\n';
     		break;
     	case 7 :
-			cout << "°¨" << '\n';
+		cout << "é¦¬" << '\n';
     		break;
     	case 8 :
-			cout << "¦Ï" << '\n';
+		cout << "ç¾Š" << '\n';
     		break;
     	case 9 :
-			cout << "µU" << '\n';
+		cout << "çŒ´" << '\n';
     		break;
     	case 10 :
-			cout << "Âû" << '\n';
+		cout << "é›ž" << '\n';
     		break;
     	case 11 :
-			cout << "ª¯" << '\n';
+		cout << "ç‹—" << '\n';
     		break;
     	case 0 :
-			cout << "½Þ" << '\n';
-    		break;
-    	case 12 :
-			cout << "½Þ" << '\n';
+	case 12 :
+		cout << "è±¬" << '\n';
     		break;
 	}
 }
@@ -51,7 +49,7 @@ int main(){
        if(n>0){
        		s(n%12);
 	   }else if(n<0){
-	   		s(12-abs(n+1)%12);
+	   	s(12-abs(n+1)%12);
 	   }
     }
 
