@@ -3,32 +3,32 @@ using namespace std;
 
 void a(int y){
 	int y1=y%10;
-    if (y1==0) cout << "©°";
-    else if (y1==1) cout << "¨¯";
-    else if (y1==2) cout << "¤Ð"; 
-	else if (y1==4) cout << "¥Ò";
-    else if (y1==5) cout << "¤A";
-    else if (y1==6) cout << "¤þ";
-    else if (y1==7) cout << "¤B";
-    else if (y1==8) cout << "¥³";
-    else if (y1==9) cout << "¤v";
-    else cout << "¬Ñ";
+	if (y1==0) cout << "åºš";
+	else if (y1==1) cout << "è¾›";
+	else if (y1==2) cout << "å£¬"; 
+	else if (y1==4) cout << "ç”²";
+	else if (y1==5) cout << "ä¹™";
+	else if (y1==6) cout << "ä¸™";
+	else if (y1==7) cout << "ä¸";
+	else if (y1==8) cout << "æˆŠ";
+	else if (y1==9) cout << "å·±";
+	else cout << "ç™¸";
 
-    int y2=y%12;
-    if (y2==0) cout << "¥Ó";
-    else if (y2==1) cout << "¨»";
-    else if (y2==2) cout << "¦¦";
-    else if (y2==3) cout << "¥è";
-    else if (y2==4) cout << "¤l";
-    else if (y2==5) cout << "¤¡";
-    else if (y2==6) cout << "±G";
-    else if (y2==7) cout << "¥f";
-    else if (y2==8) cout << "¨°";
-    else if (y2==10) cout << "¤È";
-    else if (y2==11) cout << "¥¼";
-    else  cout << "¤x";
-    cout << '\n';
-    return;
+	int y2=y%12;
+	if (y2==0) cout << "ç”³";
+	else if (y2==1) cout << "é…‰";
+	else if (y2==2) cout << "æˆŒ";
+	else if (y2==3) cout << "äº¥";
+	else if (y2==4) cout << "å­";
+	else if (y2==5) cout << "ä¸‘";
+	else if (y2==6) cout << "å¯…";
+	else if (y2==7) cout << "å¯";
+	else if (y2==8) cout << "è¾°";
+	else if (y2==10) cout << "åˆ";
+	else if (y2==11) cout << "æœª";
+	else  cout << "å·³";
+	cout << '\n';
+	return;
 }
 
 
