@@ -2,9 +2,9 @@
 using namespace std;
 
 void sol(string s){
-    while(s.size()){
-    	cout << s << '\n';
-    	s.pop_back();
+	while(s.size()){
+		cout << s << '\n';
+		s.pop_back();
 	}
 	return;
 }
