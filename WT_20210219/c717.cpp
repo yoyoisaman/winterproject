@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    string s;
-    getline(cin, s);
-    cout << s << ' ' << s << '\n';
+        string s;
+        getline(cin, s);
+        cout << s << ' ' << s << '\n';
 }
