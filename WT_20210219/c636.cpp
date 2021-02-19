@@ -44,14 +44,13 @@ void s(int n){
 }
 
 int main(){ 
-    int n;
-    while(cin >> n){
-       if(n>0){
-       		s(n%12);
-	   }else if(n<0){
-	   	s(12-abs(n+1)%12);
-	   }
-    }
-
-    return 0;
+	int n;
+	while(cin >> n){
+		if(n>0){
+			s(n%12);
+		}else if(n<0){
+			s(12-abs(n+1)%12);
+		}
+	}
+	return 0;
 }
