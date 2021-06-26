@@ -17,5 +17,6 @@ int main(){
 		printf("%.4f\n",t0);
 		t0 = 0;
 		time = 0;
+		int j =0;
 	}
 }
