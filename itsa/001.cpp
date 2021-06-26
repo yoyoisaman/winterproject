@@ -18,5 +18,6 @@ int main(){
 		t0 = 0;
 		time = 0;
 		int j =0;
+		int a =0;
 	}
 }
