@@ -19,5 +19,6 @@ int main(){
 		time = 0;
 		int j =0;
 		int a =0;
+		int b = 0;
 	}
 }
